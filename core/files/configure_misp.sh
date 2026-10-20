@@ -273,7 +273,8 @@ set_up_ldap() {
           \"ldapTlsRequireCert\": ${LDAPAUTH_LDAPTLSREQUIRECERT},
           \"ldapTlsCustomCaCert\": ${LDAPAUTH_LDAPTLSCUSTOMCACERT},
           \"ldapTlsCrlCheck\": ${LDAPAUTH_LDAPTLSCRLCHECK},
-          \"ldapTlsProtocolMin\": ${LDAPAUTH_LDAPTLSPROTOCOLMIN}
+          \"ldapTlsProtocolMin\": ${LDAPAUTH_LDAPTLSPROTOCOLMIN},
+          \"ldapUseMemberOf\": ${LDAPAUTH_USEMEMBEROF}
        }
     }" > /dev/null
 
